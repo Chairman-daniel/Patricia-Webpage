@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+}
+
+nav{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 800;
+}
+
+.navbuttons button:first-child{
+    padding: 7px 17px;
+    background-color: transparent;
+    border: 1px solid darkgreen;
+    color: darkgreen;
+}
+
+.navbuttons button:last-child{
+    padding: 7px 17px;
+    background-color: rgb(228, 228, 26);
+    color: black;
+    border: transparent;
+}
+
+/* NAV END */
+
+.herosection{
+    height: 100vh;
+    background-color: beige;
+   bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.herotext h2{
+    font-size: 40px;
+    color: rgb(7, 78, 7);
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.herotext p{
+    font-size: 13px;
+    color: darkgrey;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.herobtn{
+    margin-bottom: 20px;
+    font-weight: 700;
+    border: transparent;
+    border-radius: 5px;
+    padding: 15px 23px;
+    background-color: rgb(228, 228, 26);
+    color: darkgreen;
+}
+
+.heroimg{
+    width: 30%;
+}
+
+.heroimg img{
+    height: auto;
+    width: 340px;
+}
+
+/* HERO SECTION ENDS */
+
+.thirdsection{
+    height: 600px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.thirdsectiontext{
+    width: 50%;
+    margin-left: 40px;
+}
+
+.thirdsectiontext h2{
+    font-size: 40px;
+    color: white;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.thirdsectiontext p{
+    font-size: 13px;
+    color: white;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.thirdsectionimg{
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    background-image: url(img/b1.jpg);
+}
+
+/* THIRD SECTION ENDS */
+
+.fourthsection{
+    height: 80vh;
+    background-color: rgba(98, 216, 204, 0.219);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.fourthsection h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.fourthsection p{
+    color: darkgrey;
+}
+
+.firstfourthsection, .secondfourthsection{
+    border-right: 1px solid darkgrey;
+    padding-right: 50px;
+}
+
+/* FOUTRH SECTION ENDS */
+
+.fifthsection{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter{
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 70%;
+    background-color: rgb(245, 245, 220);
+    border-radius: 50px;
+    box-shadow: rgba(98, 216, 204, 0.7);
+}
+
+.newsletter h1{
+    margin-top: 130px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.newsletter p{
+    color: darkgrey;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.fifthsection button{
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+
+.fifthsection button:hover{
+    background-color: darkcyan;
+    transition: 0.6s;
+    border: 3px solid beige;
+}
